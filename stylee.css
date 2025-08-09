@@ -1,0 +1,66 @@
+body {
+  background-image: url("Imagenes/scroll\ tomb\ raider.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; 
+  background-attachment:scroll; 
+  margin: 0;
+  min-height: 100vh;
+}
+@font-face {
+  font-family: 'TombRaider';
+  src: url('Fuentes/Tomb_Raider.woff'),
+    url('Fuentes/Tomb_Raider.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+h1{ /*Web Developer*/
+    color: rgb(140, 14, 14);
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 0%;
+    margin-top: 20%;
+}
+#nombre { /* Nicole Aranda*/
+    color : rgb(236, 231, 231) ; 
+    font-size: 105px;
+    text-align: center;
+    font-family: TombRaider ;
+    margin-top: 0%;
+    margin-bottom: 60%;
+}
+.fotonicole{
+  justify-content: start;
+}
+p{
+  color: aliceblue;
+}
+.presentacion{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+#sobre-mi {
+  text-align: left;
+  justify-content: end;
+    color: blanchedalmond;
+  margin-bottom: 50%;
+  font-size: 25px;
+  padding:50px;
+  width: 50%;
+   background-color: rgb(57, 3, 3);
+   border: 10px solid #230202;
+}
+
+.fotonicole {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 50%;
+    border: 5px solid rgb(35, 3, 3);
+}
+img:hover {
+  transform: scale(1.1);
+}
