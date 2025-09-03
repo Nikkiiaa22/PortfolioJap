@@ -1,5 +1,5 @@
 body {
-  background-image: url("Imagenes/scroll\ red\ heart.png");
+  background-image: url("Imagenes/opt3.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; 
@@ -11,11 +11,15 @@ header{
   position: fixed;
   top: 0; left: 0;
   width: 100%;
-  background-color: rgb(35, 2, 2);
-  padding: 5px 30px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 30px;
   display: flex;
   gap: 20px;
   box-shadow: 0 2px 2px; rgba(0,0,0,0.3)
+}
+#nombreheader{
+  font-family: sans-sherif;
+  letter-spacing: 2px;
 }
 header nav{
   display: flex;
@@ -30,6 +34,13 @@ header nav{
 html {
   scroll-padding-top: 250px; 
 }
+#yoLara{
+  margin-top: 1%;
+  width: 35% ;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+}
 @font-face {
   font-family: 'TombRaider';
   src: url('Fuentes/Tomb_Raider.woff'),
@@ -39,19 +50,24 @@ html {
 }
 h1{ /*Web Developer*/
     color: rgb(140, 14, 14);
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     font-family: monospace;
     margin-bottom: 0%;
     margin-top: 20%;
+    margin-left: 10%;
+    text-shadow: 1px 1px 3px #000000;
 }
 #nombre { /* Nicole Aranda*/
     color : rgb(236, 231, 231) ; 
-    font-size: 105px;
+    font-size: 85px;
     text-align: center;
     font-family: TombRaider ;
     margin-top: 0%;
     margin-bottom: 25%;
+    margin-left: 20%;
+    letter-spacing: 6px;
+    text-shadow: 1px 1px 4px #000000;
 }
 .fotonicole{
   justify-content: start;
@@ -69,21 +85,35 @@ p{
   text-align: left;
   justify-content: end;
     color: blanchedalmond;
-  margin-bottom: 40%;
+  margin-bottom: 25%;
   font-size: 25px;
   padding:50px;
   width: 50%;
-   background-color: rgb(21, 1, 1);
+   background-color: rgb(0, 0, 0);
    border: 1px solid #000000;
 }
 
 .fotonicole {
     width: 300px;
     height: auto;
-    border-radius: 12px;
-    margin-bottom: 40%;
-    border: 5px solid rgb(35, 3, 3);
+    border-radius: 200px;
+    margin-bottom: 25%;
+    border: 1px solid rgb(0, 0, 0);
 }
-img:hover {
-  transform: scale(1.1);
+
+#hoja2{
+  background-color: white;
+    background-color: black;
+  width: 50%;
+  padding: 2px;
 }
+#skills{
+  font-family: 'TombRaider';
+  letter-spacing: 4px;
+  color: white;
+  font-size: 50px;
+  margin-top: 0%;
+  background-color: rgb(140, 14, 14);
+  padding: 10px;
+}
+
